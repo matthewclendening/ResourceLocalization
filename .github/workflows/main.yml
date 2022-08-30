@@ -7,12 +7,7 @@ on:
   push:
     branches: [ main ]
     paths:
-    - '**.ini'       # INI-based, key value pair file format
-    - '**.po'        # Portable Object file format
-    - '**.restext'   # INI-based, key value pair file format
-    - '**.resx'      # XML-based (resource) translation file format, .NET
-    - '**.xliff'     # XML-based translation file format, version 2
-    - '**.json'      # JSON-based, key value pair file format
+    - '**.en.resx'      # XML-based (resource) translation file format, .NET
 
 # GitHub automatically creates a GITHUB_TOKEN secret to use in your workflow.
 env:
@@ -47,7 +42,7 @@ jobs:
           region: ${{ secrets.AZURE_TRANSLATOR_REGION }}
           # (Optional) Locales to translate to, otherwise all possible locales
           # are targeted. Requires double quotes.
-          toLocales: '["fr"]'
+          # toLocales: '["fr"]'
 
       - name: create-pull-request
         uses: peter-evans/create-pull-request@v3.4.1
