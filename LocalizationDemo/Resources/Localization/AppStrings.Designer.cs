@@ -68,5 +68,14 @@ namespace LocalizationDemo.Resources.Localization {
                 return ResourceManager.GetString("HelloWorld", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The quick brown dog ran over the grass.
+        /// </summary>
+        internal static string TranslationTest {
+            get {
+                return ResourceManager.GetString("TranslationTest", resourceCulture);
+            }
+        }
     }
 }
