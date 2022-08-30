@@ -70,7 +70,7 @@ namespace LocalizationDemo.Resources.Localization {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The quick brown dog ran over the grass.
+        ///   Looks up a localized string similar to The quick brown dog ran over the grass quickly and with class.
         /// </summary>
         internal static string TranslationTest {
             get {

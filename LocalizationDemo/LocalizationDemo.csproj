@@ -53,17 +53,17 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="Resources\Localization\AppStrings.en.Designer.cs">
+	  <Compile Update="Resources\Localization\AppStrings.Designer.cs">
 	    <DesignTime>True</DesignTime>
 	    <AutoGen>True</AutoGen>
-	    <DependentUpon>AppStrings.en.resx</DependentUpon>
+	    <DependentUpon>AppStrings.resx</DependentUpon>
 	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
-	  <EmbeddedResource Update="Resources\Localization\AppStrings.en.resx">
+	  <EmbeddedResource Update="Resources\Localization\AppStrings.resx">
 	    <Generator>ResXFileCodeGenerator</Generator>
-	    <LastGenOutput>AppStrings.en.Designer.cs</LastGenOutput>
+	    <LastGenOutput>AppStrings.Designer.cs</LastGenOutput>
 	  </EmbeddedResource>
 	</ItemGroup>
 
