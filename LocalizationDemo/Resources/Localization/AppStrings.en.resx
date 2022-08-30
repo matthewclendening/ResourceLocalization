@@ -121,6 +121,6 @@
     <value>Hello World</value>
   </data>
   <data name="TranslationTest" xml:space="preserve">
-    <value>The quick brown dog ran over the grass</value>
+    <value>The quick brown dog ran over the grass quickly</value>
   </data>
 </root>
