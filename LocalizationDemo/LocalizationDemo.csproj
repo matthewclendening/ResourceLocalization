@@ -58,12 +58,21 @@
 	    <AutoGen>True</AutoGen>
 	    <DependentUpon>AppStrings.en.resx</DependentUpon>
 	  </Compile>
+	  <Compile Update="Resources\Localization\AppStrings.fr.Designer.cs">
+	    <DesignTime>True</DesignTime>
+	    <AutoGen>True</AutoGen>
+	    <DependentUpon>AppStrings.fr.resx</DependentUpon>
+	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
 	  <EmbeddedResource Update="Resources\Localization\AppStrings.en.resx">
 	    <Generator>ResXFileCodeGenerator</Generator>
 	    <LastGenOutput>AppStrings.en.Designer.cs</LastGenOutput>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Resources\Localization\AppStrings.fr.resx">
+	    <Generator>ResXFileCodeGenerator</Generator>
+	    <LastGenOutput>AppStrings.fr.Designer.cs</LastGenOutput>
 	  </EmbeddedResource>
 	</ItemGroup>
 
